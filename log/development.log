@@ -1,0 +1,1715 @@
+Started GET "/tasks" for ::1 at 2017-03-20 14:45:14 -0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for TasksController):
+  
+actionpack (5.0.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (3.4ms)
+Started GET "/tasks" for ::1 at 2017-03-20 14:45:26 -0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for TasksController):
+  
+actionpack (5.0.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+Started GET "/tasks" for ::1 at 2017-03-20 14:47:48 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 380ms (Views: 371.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 14:52:12 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/tasks/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.3ms)
+Started GET "/tasks" for ::1 at 2017-03-20 14:52:27 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 14:55:31 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 14:55:54 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 14:55:56 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:01:28 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:02:39 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+     5:   <h1>Tasks</h1>
+     6:   <% @tasks.each do |task, day| %>
+     7:   <li>
+     8:     <%= task.key %>
+     9:   </li>
+    10:   <% end %>
+    11: </ul>
+  
+app/views/tasks/index.html.erb:8:in `key'
+app/views/tasks/index.html.erb:8:in `block in _app_views_tasks_index_html_erb__1144894306941571246_70229806984780'
+app/views/tasks/index.html.erb:6:in `each'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb__1144894306941571246_70229806984780'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.4ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:02:45 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:03:06 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:03:53 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:03:54 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:04:39 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     5:   <h1>Tasks</h1>
+     6:   <% @tasks.each do |task| %>
+     7:   <li>
+     8:     <%= "#{task.keys[:values]}" %>
+     9:   </li>
+    10:   <% end %>
+    11: </ul>
+  
+app/views/tasks/index.html.erb:8:in `[]'
+app/views/tasks/index.html.erb:8:in `block in _app_views_tasks_index_html_erb__1144894306941571246_70229859370240'
+app/views/tasks/index.html.erb:6:in `each'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb__1144894306941571246_70229859370240'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.4ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:04:43 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     5:   <h1>Tasks</h1>
+     6:   <% @tasks.each do |task| %>
+     7:   <li>
+     8:     <%= "#{task.keys[:value]}" %>
+     9:   </li>
+    10:   <% end %>
+    11: </ul>
+  
+app/views/tasks/index.html.erb:8:in `[]'
+app/views/tasks/index.html.erb:8:in `block in _app_views_tasks_index_html_erb__1144894306941571246_70229850949140'
+app/views/tasks/index.html.erb:6:in `each'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb__1144894306941571246_70229850949140'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.1ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:05:52 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `value' for {:monday=>"chores"}:Hash
+Did you mean?  value?
+               values):
+     5:   <h1>Tasks</h1>
+     6:   <% @tasks.each do |task| %>
+     7:   <li>
+     8:     <%= task.value %>
+     9:   </li>
+    10:   <% end %>
+    11: </ul>
+  
+app/views/tasks/index.html.erb:8:in `block in _app_views_tasks_index_html_erb__1144894306941571246_70229807049340'
+app/views/tasks/index.html.erb:6:in `each'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb__1144894306941571246_70229807049340'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.7ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:05:57 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:06:52 -0700
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:4: syntax error, unexpected ',', expecting =>
+ { monday: "chores", "dinner", "homework"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:4: syntax error, unexpected '}', expecting keyword_end
+chores", "dinner", "homework"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:5: syntax error, unexpected ',', expecting keyword_end
+      { tuesday: "shopping"},
+                             ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+dnesday: "climb Mt. Rainier"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+      { thursday: "sleep"},
+                           ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:9: syntax error, unexpected ']', expecting keyword_end
+    ]
+     ^):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ',', expecting =>
+app/controllers/tasks_controller.rb:4: syntax error, unexpected '}', expecting keyword_end
+app/controllers/tasks_controller.rb:5: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:9: syntax error, unexpected ']', expecting keyword_end
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.8ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:06:55 -0700
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:4: syntax error, unexpected ',', expecting =>
+ { monday: "chores", "dinner", "homework"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:4: syntax error, unexpected '}', expecting keyword_end
+chores", "dinner", "homework"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:5: syntax error, unexpected ',', expecting keyword_end
+      { tuesday: "shopping"},
+                             ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+dnesday: "climb Mt. Rainier"},
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+      { thursday: "sleep"},
+                           ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/controllers/tasks_controller.rb:9: syntax error, unexpected ']', expecting keyword_end
+    ]
+     ^):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ',', expecting =>
+app/controllers/tasks_controller.rb:4: syntax error, unexpected '}', expecting keyword_end
+app/controllers/tasks_controller.rb:5: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:6: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+app/controllers/tasks_controller.rb:9: syntax error, unexpected ']', expecting keyword_end
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.7ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:07:10 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:10:14 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:10:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:11:30 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:11:45 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:12:12 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:12:48 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:8: syntax error, unexpected =>, expecting ')'
+fer.append=( task.values[0] =>
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:11: unknown regexp option - l
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:11: unmatched close parenthesis: /li>
+  <% end );@output_buffer.safe_append='
+</
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:12: unterminated string meets end of file
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/tasks/index.html.erb:8: syntax error, unexpected =>, expecting ')'
+app/views/tasks/index.html.erb:11: unknown regexp option - l
+app/views/tasks/index.html.erb:11: unmatched close parenthesis: /li>
+app/views/tasks/index.html.erb:12: unterminated string meets end of file
+app/views/tasks/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.0ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:12:49 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:8: syntax error, unexpected =>, expecting ')'
+fer.append=( task.values[0] =>
+                              ^
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:11: unknown regexp option - l
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:11: unmatched close parenthesis: /li>
+  <% end );@output_buffer.safe_append='
+</
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:12: unterminated string meets end of file
+/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/tasks/index.html.erb:8: syntax error, unexpected =>, expecting ')'
+app/views/tasks/index.html.erb:11: unknown regexp option - l
+app/views/tasks/index.html.erb:11: unmatched close parenthesis: /li>
+app/views/tasks/index.html.erb:12: unterminated string meets end of file
+app/views/tasks/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.6ms)
+Started GET "/tasks" for ::1 at 2017-03-20 15:12:53 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:19:08 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-20 15:24:17 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTasks (20170321204427)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "completion_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170321204427"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-03-21 20:47:05 UTC], ["updated_at", 2017-03-21 20:47:05 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "laundry"], ["description", "wash whites and darks"], ["created_at", 2017-03-21 20:51:44 UTC], ["updated_at", 2017-03-21 20:51:44 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "grocery shopping"], ["description", "buy eggs, flour, milk"], ["created_at", 2017-03-21 20:52:28 UTC], ["updated_at", 2017-03-21 20:52:28 UTC]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sleep"], ["description", "close eyes and relax"], ["created_at", 2017-03-21 20:56:33 UTC], ["updated_at", 2017-03-21 20:56:33 UTC]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/tasks" for ::1 at 2017-03-21 13:58:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3: 
+    4: <ul>
+    5:   <h1>Tasks</h1>
+    6:   <% @tasks.each do |task| %>
+    7:   <li>
+    8:     <%= task.name%>: <%= task.description %>
+    9:   </li>
+  
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb___1999400220819083769_70345735677800'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.6ms)
+Started GET "/tasks" for ::1 at 2017-03-21 13:58:44 -0700
+Started GET "/tasks" for ::1 at 2017-03-21 13:58:54 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 192ms (Views: 186.4ms | ActiveRecord: 0.5ms)
+
+
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 23ms (Views: 16.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 13:59:48 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/tasks/1"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (9.4ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.4ms)
+Started GET "/tasks" for ::1 at 2017-03-21 13:59:53 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:04:16 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:04:27 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:04:55 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:05:01 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:22:57 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.1" for ::1 at 2017-03-21 14:22:59 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 37.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.1" for ::1 at 2017-03-21 14:23:00 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 48ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.1" for ::1 at 2017-03-21 14:25:42 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 61ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:25:45 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:25:49 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "completion_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "nap"], ["description", "rest eyes for short-ish time"], ["completion_date", 20170321], ["created_at", 2017-03-21 21:29:44 UTC], ["updated_at", 2017-03-21 21:29:44 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/tasks" for ::1 at 2017-03-21 14:29:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.4" for ::1 at 2017-03-21 14:29:57 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 49ms (Views: 31.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.4" for ::1 at 2017-03-21 14:29:59 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 54ms (Views: 35.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks.4" for ::1 at 2017-03-21 14:30:20 -0700
+Processing by TasksController#index as 
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (97.0ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `task_path' for #<#<Class:0x007ff54fa61070>:0x007ff54fcadea0>
+Did you mean?  tasks_path):
+     5:   <h1>My To-do List:</h1>
+     6:   <% @tasks.each do |task| %>
+     7:   <li>
+     8:     <%= link_to task.name, task_path(task.id) %>: <%= task.description %>,
+     9:     Completed: <% if task.completion_date == nil %>
+    10:     no
+    11:     <% else %>
+  
+app/views/tasks/index.html.erb:8:in `block in _app_views_tasks_index_html_erb___1999400220819083769_70345791207040'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb___1999400220819083769_70345791207040'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.7ms)
+Started GET "/tasks" for ::1 at 2017-03-21 14:30:35 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 40ms (Views: 34.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks/2" for ::1 at 2017-03-21 14:30:36 -0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for TasksController):
+  
+actionpack (5.0.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started GET "/tasks" for ::1 at 2017-03-21 14:30:40 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:30:40 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:36:24 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 26ms (Views: 20.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:36:25 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:36:27 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:38:30 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:38:32 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (142.1ms)
+Completed 500 Internal Server Error in 152ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<#<Class:0x007ff5497f36e0>:0x007ff550a14120>):
+    1: <h1>Tasks#show</h1>
+    2: <p>Find me in app/views/tasks/show.html.erb</p>
+    3: 
+    4: <h1><%= task.name %></h1>
+    5: <p>
+    6:   <%= task.description %>
+    7: </p>
+  
+app/views/tasks/show.html.erb:4:in `_app_views_tasks_show_html_erb__1643620315439672825_70345798231580'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.5ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:45:05 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `param' for #<TasksController:0x007ff54a74d6b8>
+Did you mean?  params
+               params=):
+  
+app/controllers/tasks_controller.rb:16:in `show'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.9ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:45:06 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `param' for #<TasksController:0x007ff55096d668>
+Did you mean?  params
+               params=):
+  
+app/controllers/tasks_controller.rb:16:in `show'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.3ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:45:11 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `param' for #<TasksController:0x007ff549fa0f28>
+Did you mean?  params
+               params=):
+  
+app/controllers/tasks_controller.rb:16:in `show'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.3ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:45:37 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (133.3ms)
+Completed 500 Internal Server Error in 152ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<#<Class:0x007ff54a72c620>:0x007ff54a727490>):
+    1: <h1>Tasks#show</h1>
+    2: <p>Find me in app/views/tasks/show.html.erb</p>
+    3: 
+    4: <h1><%= task.name %></h1>
+    5: <p>
+    6:   <%= task.description %>
+    7: </p>
+  
+app/views/tasks/show.html.erb:4:in `_app_views_tasks_show_html_erb__1643620315439672825_70345746376740'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.1ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:46:11 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (137.6ms)
+Completed 500 Internal Server Error in 144ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<#<Class:0x007ff54a72c620>:0x007ff54a53ecc8>):
+    5: <p>
+    6:   <%= @result_task.description %>
+    7: </p>
+    8: <h2><%= link_to "Home", task.tasks_path %></h2>
+  
+app/views/tasks/show.html.erb:8:in `_app_views_tasks_show_html_erb__1643620315439672825_70345745376440'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.9ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:46:40 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (144.4ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<#<Class:0x007ff550a94690>:0x007ff550a8f500>):
+    5: <p>
+    6:   <%= @result_task.description %>
+    7: </p>
+    8: <h2><%= link_to "Home", task.tasks_path %></h2>
+  
+app/views/tasks/show.html.erb:8:in `_app_views_tasks_show_html_erb__1643620315439672825_70345798494300'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.9ms)
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:47:40 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:47:43 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:47:45 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 14:48:14 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:48:29 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/3" for ::1 at 2017-03-21 14:48:30 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:48:36 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:49:13 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:49:18 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:49:34 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 14:50:38 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `parse' for 20170321:Integer
+Did you mean?  phase):
+     9:     Completed: <% if task.completion_date == nil %>
+    10:     NO
+    11:     <% else %>
+    12:     YES: <%= task.completion_date.parse %>
+    13:     <% end %>
+    14:   </li>
+    15:   <% end %>
+  
+app/views/tasks/index.html.erb:12:in `block in _app_views_tasks_index_html_erb___1999400220819083769_70345798385140'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb___1999400220819083769_70345798385140'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.5ms)
+Started GET "/tasks" for ::1 at 2017-03-21 14:50:44 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 15:51:02 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 15:51:04 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 15:57:51 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `strftime' for 20170321:Integer):
+     9:     Completed: <% if task.completion_date == nil %>
+    10:     NO
+    11:     <% else %>
+    12:     YES: <%= task.completion_date.strftime("%m%d%y") %>
+    13:     <% end %>
+    14:   </li>
+    15:   <% end %>
+  
+app/views/tasks/index.html.erb:12:in `block in _app_views_tasks_index_html_erb___1999400220819083769_70345790643100'
+app/views/tasks/index.html.erb:6:in `_app_views_tasks_index_html_erb___1999400220819083769_70345790643100'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.7ms)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "completion_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["description", "quick clean-up"], ["completion_date", Tue, 21 Mar 2017], ["created_at", 2017-03-21 23:03:26 UTC], ["updated_at", 2017-03-21 23:03:26 UTC]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "tasks" SET "completion_date" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["completion_date", Wed, 31 May 2017], ["updated_at", 2017-03-21 23:04:48 UTC], ["id", 4]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Started GET "/tasks" for ::1 at 2017-03-21 16:05:36 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 16:06:46 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 16:06:59 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/5" for ::1 at 2017-03-21 16:07:18 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/2" for ::1 at 2017-03-21 16:07:29 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 16:30:21 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/1" for ::1 at 2017-03-21 16:32:55 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 16:36:26 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-21 16:38:24 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/taks" for ::1 at 2017-03-22 12:38:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/taks"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (5.5ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.3ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.9ms)
+Started GET "/tasks" for ::1 at 2017-03-22 12:38:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 199ms (Views: 190.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:38:54 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Task with 'id'=new):
+  
+app/controllers/tasks_controller.rb:16:in `show'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.9ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:39:10 -0700
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for TasksController):
+  
+actionpack (5.0.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:40:01 -0700
+Processing by TasksController#new as HTML
+Completed 406 Not Acceptable in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TasksController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.0.2) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.0.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.0.2) lib/abstract_controller/base.rb:188:in `process_action'
+actionpack (5.0.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.0.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.0.2) lib/active_support/callbacks.rb:126:in `call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+activesupport (5.0.2) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.2) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.2) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.2) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.2ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:41:02 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:42:01 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:46:55 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:47:13 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:48:50 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 12:49:34 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 12:49:51 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/tasks"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.3ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (110.1ms)
+Started POST "/tasks" for ::1 at 2017-03-22 12:51:08 -0700
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for TasksController):
+  
+actionpack (5.0.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.2) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+Started POST "/tasks" for ::1 at 2017-03-22 12:51:29 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"MZ5rx82UQoXuGBzrrn1plwcFXcw+txdOc+PB4eZdENhho/t3m+LLGm+umJfuXyKo2RB9UnDuDn2kCqjjZGNpbg==", "name"=>"asdf", "description"=>"asdf", "completion_date"=>"2017-03-23"}
+No template found for TasksController#create, rendering head :no_content
+Completed 204 No Content in 75ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 12:53:35 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"MZ5rx82UQoXuGBzrrn1plwcFXcw+txdOc+PB4eZdENhho/t3m+LLGm+umJfuXyKo2RB9UnDuDn2kCqjjZGNpbg==", "name"=>"asdf123", "description"=>"asdfssdadsa", "completion_date"=>"2017-03-23"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `descrption=' for #<Task:0x007fc57a1b0ea8>
+Did you mean?  description=
+               description
+               description?):
+  
+app/controllers/tasks_controller.rb:24:in `create'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.8ms)
+Started POST "/tasks" for ::1 at 2017-03-22 12:53:53 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"MZ5rx82UQoXuGBzrrn1plwcFXcw+txdOc+PB4eZdENhho/t3m+LLGm+umJfuXyKo2RB9UnDuDn2kCqjjZGNpbg==", "name"=>"asdf123", "description"=>"asdfssdadsa", "completion_date"=>"2017-03-23"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "completion_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "asdf123"], ["description", "asdfssdadsa"], ["completion_date", Thu, 23 Mar 2017], ["created_at", 2017-03-22 19:53:53 UTC], ["updated_at", 2017-03-22 19:53:53 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+No template found for TasksController#create, rendering head :no_content
+Completed 204 No Content in 89ms (ActiveRecord: 1.5ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 12:54:50 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"MZ5rx82UQoXuGBzrrn1plwcFXcw+txdOc+PB4eZdENhho/t3m+LLGm+umJfuXyKo2RB9UnDuDn2kCqjjZGNpbg==", "name"=>"new task", "description"=>"asdfssdadsa", "completion_date"=>"2017-03-23"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "completion_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "new task"], ["description", "asdfssdadsa"], ["completion_date", Thu, 23 Mar 2017], ["created_at", 2017-03-22 19:54:50 UTC], ["updated_at", 2017-03-22 19:54:50 UTC]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 12ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 12:54:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Started GET "/tasks" for ::1 at 2017-03-22 13:00:31 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
