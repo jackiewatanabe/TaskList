@@ -20,11 +20,15 @@ class TasksController < ApplicationController
   end
 
   def create
-    task = Task.create name: params[:task][:name], description: params[:task][:description], completion_date:  params[:task][:completion_date]
+    task = Task.create task_params
 
-
-      redirect_to tasks_path
+    redirect_to tasks_path
   end
 
+  private
+
+  def task_params
+    params.require(:task).permit(:name, :description, :completion_date)
+  end
 
 end
