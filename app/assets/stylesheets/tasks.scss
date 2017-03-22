@@ -1,3 +1,28 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Shadows+Into+Light');
+
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 8vw;
+  margin-bottom: 10px;
+}
+
+.list-items a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.list-items a:hover, .list-items a:visited:hover {
+  color: gray;
+}
+
+.list-items a:visited {
+  color: orange;
+}
