@@ -1,0 +1,19 @@
+<form action="/tasks" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+
+  <label for="name">Task name</label>
+  <input type="text" name="name" value="" id="name" />
+
+  <label for="description">Description</label>
+  <input type="text" name="description" value="" id="description" />
+
+  <label for="completed">Completed?</label>
+  <input type="checkbox" name="completed" value="" id="completed" />
+
+  <label for="completion_date">Completion Date</label>
+  <input type="date" name="completion_date" value="" id="completion_date" />
+
+  <%= if
+  <input type="submit" value="Add task" />
+
+</form>

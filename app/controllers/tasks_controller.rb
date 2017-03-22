@@ -16,18 +16,18 @@ class TasksController < ApplicationController
   end
 
   def new
+    @task = Task.new name: "default task"
   end
 
   def create
+
     task = Task.new
-    task.name = params[:name]
-    task.description = params[:description]
-    task.completion_date = params[:completion_date]
+    task.name = params[:task][:name]
+    task.description = params[:task][:description]
+    task.completion_date = params[:task][:completion_date]
     if task.save
       redirect_to tasks_path
     end
-
-
   end
 
 

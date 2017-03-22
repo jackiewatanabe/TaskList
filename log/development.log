@@ -1713,3 +1713,611 @@ Processing by TasksController#index as HTML
 Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/tasks" for ::1 at 2017-03-22 13:13:41 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 13:13:44 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 13:13:57 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 13:14:30 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"mCr5FhDfoglPkKS8AOI1OkURCq4nUVXZmdiGpesOwvnIF2mmRqkrls4mIMBAwH4FmwQqMGkITOpOMe+naTC7Tw==", "name"=>"drink tea", "description"=>"enjoy a delicious cuppa", "completed"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "drink tea"], ["description", "enjoy a delicious cuppa"], ["created_at", 2017-03-22 20:14:30 UTC], ["updated_at", 2017-03-22 20:14:30 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 13:14:30 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 13:17:17 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 13:17:27 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"vneJ5VfYz1ier/PAGJ+iF3gsYOcza1FaN5shNXZ5QVHuShlVAa5Gxx8Zd7xYvekopjlAeX0ySGngckg39Ec45w==", "name"=>"test", "description"=>"adsfasfd", "completion_date"=>""}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "test"], ["description", "adsfasfd"], ["created_at", 2017-03-22 20:17:27 UTC], ["updated_at", 2017-03-22 20:17:27 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 13:17:27 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 13:26:50 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 29ms (Views: 21.7ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Started GET "/tasks" for ::1 at 2017-03-22 14:50:42 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 195ms (Views: 182.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:50:44 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/sushiigirl/Documents/ada/rails-projects/TaskList/app/views/tasks/new.html.erb:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/tasks/new.html.erb:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.6ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:52:06 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @book do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357430350780'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.1ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:52:18 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @book do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357422805120'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.5ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:52:40 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @book do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357430474460'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.0ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:52:53 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @task do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357430503300'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.2ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:53:04 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @task do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357430504760'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.4ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:53:20 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 46ms (Views: 35.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:53:47 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 14:54:03 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y0/DPzAKCxBt3nJdbhaUL2epHnlJtxOyk+3rp3p9ObabclOPZnyCj+xo9iEuNN8Qubw+5wfuCoFEBIKl+ENAAA==", "task"=>{"name"=>"asdf", "description"=>"asdf"}, "commit"=>"Add task"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tasks" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", 2017-03-22 21:54:03 UTC], ["updated_at", 2017-03-22 21:54:03 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 14:54:03 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:56:18 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 19.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 14:56:23 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MTg8wgiw97pvpEYkg7VFWTZ1zmTkEwimyhhbKhOv4tNhBaxyXsZ+Je4SwljDlw5m6GDu+qpKEZUd8TIokZGbZQ==", "task"=>{"name"=>"asdf", "description"=>"asdfasfd\r\n"}, "commit"=>"Add task"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "asdf"], ["description", "asdfasfd\r\n"], ["created_at", 2017-03-22 21:56:23 UTC], ["updated_at", 2017-03-22 21:56:23 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 14:56:23 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:56:37 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>New Task</h1>
+    2: 
+    3: <%= form_for @task do |f| %>
+    4:   <%= f.label :name %>
+    5:   <%= f.text_field :name %>
+    6: 
+  
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357429935240'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (93.3ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:57:17 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 36ms (Views: 26.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 14:57:20 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HKd2AwKvwU8DYXaa2vbJPdR2Yr4Pid2aTjbcKvvmz5ZMmuazVNlI0ILX8uaa1IICCmNCIEHQxKmZ37Uoedi2IA==", "task"=>{"name"=>"asdf", "description"=>"asdfasdf"}, "commit"=>"Add task"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `name=' for nil:NilClass):
+  
+app/controllers/tasks_controller.rb:23:in `create'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.4ms)
+Started POST "/tasks" for ::1 at 2017-03-22 14:58:19 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HKd2AwKvwU8DYXaa2vbJPdR2Yr4Pid2aTjbcKvvmz5ZMmuazVNlI0ILX8uaa1IICCmNCIEHQxKmZ37Uoedi2IA==", "task"=>{"name"=>"asdf", "description"=>"asdfasdf"}, "commit"=>"Add task"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "asdf"], ["description", "asdfasdf"], ["created_at", 2017-03-22 21:58:19 UTC], ["updated_at", 2017-03-22 21:58:19 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 14:58:19 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 14:58:24 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2017-03-22 14:58:28 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qb0xW1kw5EoOmkwkSXqLthjo6YnTjcPy64Fl+hTTSzf5gKHrD0Zt1Y8syFgJWMCJxv3JF53U2sE8aAz4lu0ygQ==", "task"=>{"name"=>"test", "description"=>"testbook"}, "commit"=>"Add task"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "test"], ["description", "testbook"], ["created_at", 2017-03-22 21:58:28 UTC], ["updated_at", 2017-03-22 21:58:28 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks" for ::1 at 2017-03-22 14:58:28 -0700
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/13" for ::1 at 2017-03-22 14:58:33 -0700
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:02:23 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 24.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:03:07 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:03:14 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:17:02 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (74.6ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<ActionView::Helpers::FormBuilder:0x007ffabb4f30b8>):
+     8:   <%= f.text_area :description, size: "60x12" %>
+     9: 
+    10:   <%= f.label :completion_date %>
+    11:   <%= f.date :completion_date %>
+    12: 
+    13:   <%= f.submit "Add task" %>
+    14: 
+  
+app/views/tasks/new.html.erb:11:in `block in _app_views_tasks_new_html_erb__27525159046025004_70357430600220'
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357430600220'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.7ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:17:48 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (66.3ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<ActionView::Helpers::FormBuilder:0x007ffabb703ba0>):
+     8:   <%= f.text_area :description, size: "60x12" %>
+     9: 
+    10:   <!-- <%= f.label :completion_date %>
+    11:   <%= f.date :completion_date %> -->
+    12: 
+    13:   <%= f.submit "Add task" %>
+    14: 
+  
+app/views/tasks/new.html.erb:11:in `block in _app_views_tasks_new_html_erb__27525159046025004_70357431670320'
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357431670320'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (98.2ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:18:09 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (93.2ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<ActionView::Helpers::FormBuilder:0x007ffac1828408>):
+     8:   <%= f.text_area :description, size: "60x12" %>
+     9: 
+    10:   <!-- <%= f.label :completion_date %>
+    11:   <%= f.date :completion_date %> -->
+    12: 
+    13:   <%= f.submit "Add task" %>
+    14: 
+  
+app/views/tasks/new.html.erb:11:in `block in _app_views_tasks_new_html_erb__27525159046025004_70357468718460'
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357468718460'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.9ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:18:10 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (68.9ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<ActionView::Helpers::FormBuilder:0x007ffabfc311a0>):
+     8:   <%= f.text_area :description, size: "60x12" %>
+     9: 
+    10:   <!-- <%= f.label :completion_date %>
+    11:   <%= f.date :completion_date %> -->
+    12: 
+    13:   <%= f.submit "Add task" %>
+    14: 
+  
+app/views/tasks/new.html.erb:11:in `block in _app_views_tasks_new_html_erb__27525159046025004_70357468038280'
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357468038280'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.2ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:18:18 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:19:08 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (67.6ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `date' for #<ActionView::Helpers::FormBuilder:0x007ffabb6f2f30>):
+     8:   <%= f.text_area :description, size: "60x12" %>
+     9: 
+    10:   <%= f.label "Date Complete" %>
+    11:   <%= f.date :completion_date %>
+    12: 
+    13:   <%= f.submit "Add task" %>
+    14: 
+  
+app/views/tasks/new.html.erb:11:in `block in _app_views_tasks_new_html_erb__27525159046025004_70357431637480'
+app/views/tasks/new.html.erb:3:in `_app_views_tasks_new_html_erb__27525159046025004_70357431637480'
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sushiigirl/.rvm/gems/ruby-2.4.0@TaskListRails/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.9ms)
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:22:51 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:23:01 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:31:42 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:31:57 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:32:35 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:32:54 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:33:08 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2017-03-22 15:33:24 -0700
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+

@@ -9,7 +9,7 @@
     Completed: <% if task.completion_date == nil %>
     NO
     <% else %>
-    YES: <%= task.completion_date.strftime("%m-%d-%Y") %>
+    YES: <%= task.completion_date.strftime("%m-%d-%y") %>
     <% end %>
   </li>
   <% end %>
