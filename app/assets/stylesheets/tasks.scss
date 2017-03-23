@@ -11,6 +11,7 @@ h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 8vw;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .list-items a {
@@ -25,4 +26,34 @@ h1 {
 
 .list-items a:visited {
   color: orange;
+}
+
+ol {
+  margin-bottom: 50px;
+}
+
+ul  li {
+  vertical-align: top;
+  color: red;
+  padding: 10px;
+
+}
+
+a.add-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: red;
+  border: solid 3px black;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+a.add-button:hover {
+  background-color: yellow;
+  color: black;
+  border: dotted 3px black;
+
+
 }

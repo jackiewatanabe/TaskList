@@ -6,25 +6,30 @@
   <link rel="stylesheet" href="/assets/stylesheets/tasks.scss">
 </head>
 <body>
-
-  <h1>New Task</h1>
-
-  <ul>
-    <%= form_for @task do |f| %>
-    <li>
-      <%= f.label "naaaame" %>
-      <%= f.text_field :name %>
-    </li>
-    <li>
-      <%= f.label :description %>
-      <%= f.text_area :description, size: "60x12" %>
-    </li>
-    <li>
-      <%= f.label "Date Complete:" %>
-      <%= f.date_field :completion_date %>
-    </li>
-    <%= f.submit "Add task" %>
-    <% end %>
-  </ul>
+  <header>
+  </header>
+  <main>
+    <h1>New Task</h1>
+    <ul>
+      <%= form_for @task do |f| %>
+      <li>
+        <%= f.label "naaaame" %>
+        <%= f.text_field :name %>
+      </li>
+      <li>
+        <%= f.label :description %>
+        <%= f.text_area :description, size: "60x12" %>
+      </li>
+      <li>
+        <%= f.label "Date Complete:" %>
+        <%= f.date_field :completion_date %>
+      </li>
+      <%= f.submit "Add task" %>
+      <% end %>
+    </ul>
+    <%= link_to 'Back to list', tasks_path %>
+  </main>
+  <footer>
+  </footer>
 </body>
 </html>
