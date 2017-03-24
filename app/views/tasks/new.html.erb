@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>My To-do List</title>
-  <link rel="stylesheet" href="/assets/stylesheets/tasks.scss">
-</head>
-<body>
-  <header>
-  </header>
-  <main>
+
     <h2>New Task</h2>
     <ul>
       <%= form_for @task do |f| %>
@@ -28,8 +18,3 @@
       <% end %>
     </ul>
     <%= link_to 'Back to list', tasks_path %>
-  </main>
-  <footer>
-  </footer>
-</body>
-</html>
