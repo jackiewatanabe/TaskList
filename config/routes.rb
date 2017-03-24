@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get '/tasks', to: 'tasks#index'
   get '/tasks/:id', to: 'tasks#show', as: 'task'
 
-  get 'tasks/edit/:id', to: 'tasks#edit'
+  get 'tasks/edit/:id', to: 'tasks#edit', as: 'task_edit'
   put 'tasks/:id', to: 'tasks#update'
 end
