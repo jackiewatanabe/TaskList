@@ -14,6 +14,14 @@ h1 {
   margin-top: 10px;
 }
 
+main {
+  padding: 20px;
+}
+
+.list-items {
+      margin-left: 60px;
+}
+
 .list-items a {
   text-decoration: none;
   color: red;
@@ -36,7 +44,6 @@ ul  li {
   vertical-align: top;
   color: red;
   padding: 10px;
-
 }
 
 a.add-button {
@@ -46,7 +53,7 @@ a.add-button {
   background-color: red;
   border: solid 3px black;
   padding: 10px;
-  margin: 20px;
+  margin: 40px;
   margin-bottom: 50px;
 }
 

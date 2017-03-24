@@ -9,11 +9,11 @@
   <header>
   </header>
   <main>
-    <h1>New Task</h1>
+    <h2>New Task</h2>
     <ul>
       <%= form_for @task do |f| %>
       <li>
-        <%= f.label "naaaame" %>
+        <%= f.label :name, "naaaame" %>
         <%= f.text_field :name %>
       </li>
       <li>
@@ -21,7 +21,7 @@
         <%= f.text_area :description, size: "60x12" %>
       </li>
       <li>
-        <%= f.label "Date Complete:" %>
+        <%= f.label :completion_date, "Date Complete:" %>
         <%= f.date_field :completion_date %>
       </li>
       <%= f.submit "Add task" %>
