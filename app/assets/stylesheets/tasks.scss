@@ -22,19 +22,19 @@ main {
       margin-left: 60px;
 }
 
-.list-items a {
-  text-decoration: none;
-  color: red;
-  font-weight: bold;
-}
+// .list-items a {
+//   text-decoration: none;
+//   color: red;
+//   font-weight: bold;
+// }
 
 .list-items a:hover, .list-items a:visited:hover {
   color: gray;
 }
 
-.list-items a:visited {
-  color: orange;
-}
+// .list-items a:visited {
+//   color: orange;
+// }
 
 ol {
   margin-bottom: 50px;
@@ -61,4 +61,28 @@ a.add-button:hover {
   background-color: yellow;
   color: black;
   border: dotted 3px black;
+}
+
+// .complete a {
+//   color: green;
+// }
+
+.complete {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.complete:visited {
+  color: green;
+}
+
+.incomplete {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.incomplete:visited {
+  color: red;
 }

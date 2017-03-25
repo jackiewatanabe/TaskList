@@ -6,12 +6,26 @@
 <ol>
   <% @tasks.each do |task| %>
   <li class="list-items">
-    <%= link_to task.name, task_path(task.id) %>: <%= task.description %> |
-    Completed: <% if task.completion_date == nil %>
+    <% if task.complete == true %>
+      <%= link_to task.name, task_path(task.id), class: "complete" %>
+    <% else %>
+      <%= link_to task.name, task_path(task.id), class: "incomplete" %>
+    <% end %>
+    <p>
+     <%= task.description %>
+   | Completed: <% if task.completion_date == nil %>
     NO
     <% else %>
     YES: <%= task.completion_date.strftime("%m-%d-%y") %>
     <% end %>
+       </p>
+
+
+    <!-- completion date: <%= task.completion_date %>
+    complete: <%= task.complete %>
+    updated at: <%= task.updated_at %> -->
+
+
   </li>
   <% end %>
 </ol>

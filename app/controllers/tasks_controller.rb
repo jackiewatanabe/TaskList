@@ -33,7 +33,15 @@ class TasksController < ApplicationController
     task = Task.find(params[:id])
     task.name = params[:task][:name]
     task.description = params[:task][:description]
-    task.completion_date = params[:task][:completion_date]
+    task.complete = params[:task][:complete]
+
+    if task.complete
+      task.completion_date = DateTime.now
+      # task.completion_date = params[:task][:updated_at]
+    else
+      task.completion_date = nil
+      # params[:task][:updated_at].to_datetime
+    end
 
     if task.save
       redirect_to tasks_path
