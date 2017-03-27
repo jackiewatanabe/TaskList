@@ -1,7 +1,9 @@
 class TasksController < ApplicationController
   def index
 
-    @tasks = Task.all
+    # @tasks = Task.all
+    @tasks = Task.order(:complete)
+
     # @tasks = [
     #   { monday: "chores"},
     #   { tuesday: "shopping"},

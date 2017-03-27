@@ -13,7 +13,12 @@
     <% end %>
     <p>
      <%= task.description %>
-   | Completed: <% if task.completion_date == nil %>
+   | Completed:
+
+   <label for="complete">Completed?</label>
+   <input type="checkbox" name="complete" value="" class="complete" />
+
+   <% if task.completion_date == nil %>
     NO
     <% else %>
     YES: <%= task.completion_date.strftime("%m-%d-%y") %>
