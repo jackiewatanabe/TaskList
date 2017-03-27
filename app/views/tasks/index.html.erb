@@ -8,31 +8,26 @@
   <li class="list-items">
     <% if task.complete == true %>
       <%= link_to task.name, task_path(task.id), class: "complete" %>
+      <%= task.description %>
+      | Completed:
+      <%= task.completion_date %>
     <% else %>
       <%= link_to task.name, task_path(task.id), class: "incomplete" %>
+      <%= task.description %>
+        <%= form_for task, method: :put do |f| %>
+
+        <!-- <%= f.label :complete, "" %> -->
+        <%= f.check_box :complete %>
+        <%= f.submit "Mark complete", data: { confirm: "Are you sure you want to mark this complete?" } %>
+        <% end %>
+
     <% end %>
-    <p>
-     <%= task.description %>
-   | Completed:
 
-   <label for="complete">Completed?</label>
-   <input type="checkbox" name="complete" value="" class="complete" />
-
-   <% if task.completion_date == nil %>
-    NO
-    <% else %>
-    YES: <%= task.completion_date.strftime("%m-%d-%y") %>
-    <% end %>
-       </p>
-
-
-    <!-- completion date: <%= task.completion_date %>
-    complete: <%= task.complete %>
-    updated at: <%= task.updated_at %> -->
-
+<!-- .strftime("%m-%d-%y") -->
+        <% end %>
 
   </li>
-  <% end %>
+
 </ol>
 
 <%= link_to "Add a new task", new_task_path, class: "add-button" %>

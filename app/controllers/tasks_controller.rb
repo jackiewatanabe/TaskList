@@ -1,7 +1,7 @@
 class TasksController < ApplicationController
   def index
 
-    # @tasks = Task.all
+    @tasks = Task.all
     @tasks = Task.order(:complete)
 
     # @tasks = [
@@ -18,7 +18,7 @@ class TasksController < ApplicationController
   end
 
   def new
-    @task = Task.new name: "default task"
+    @task = Task.new
   end
 
   def create
@@ -33,8 +33,12 @@ class TasksController < ApplicationController
 
   def update
     task = Task.find(params[:id])
-    task.name = params[:task][:name]
-    task.description = params[:task][:description]
+    if params[:task][:name] !=nil
+      task.name = params[:task][:name]
+    end
+    if params[:task][:description] != nil
+      task.description = params[:task][:description]
+    end
     task.complete = params[:task][:complete]
 
     if task.complete
@@ -59,7 +63,7 @@ class TasksController < ApplicationController
   private
 
   def task_params
-    params.require(:task).permit(:name, :description, :completion_date)
+    params.require(:task).permit(:name, :description, :complete)
   end
 
 end
