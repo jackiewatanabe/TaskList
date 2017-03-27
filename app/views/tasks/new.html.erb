@@ -1,6 +1,8 @@
 
     <h2>New Task</h2>
-    <ul>
+
+    <%= render partial: "form", locals: { action_name: "Add task", form_method: :post, form_class: "update-button"} %>
+    <!-- <ul>
       <%= form_for @task do |f| %>
       <li>
         <%= f.label :name, "Name: " %>
@@ -10,11 +12,10 @@
         <%= f.label :description, "Description: " %>
         <%= f.text_area :description, size: "60x12" %>
       </li>
-      <!-- <li>
-        <%= f.label :completion_date, "Date Complete:" %>
-        <%= f.date_field :completion_date %>
-      </li> -->
+
       <%= f.submit "Add task" %>
       <% end %>
-    </ul>
+    </ul> -->
+
+
     <%= link_to '<-- Back to list', tasks_path, class: "home-button" %>
