@@ -1,4 +1,4 @@
-<h2>Edit a task</h2>
+<h2>Edit task</h2>
 
 <%= form_for @task, method: :put do |f| %>
 
@@ -8,12 +8,12 @@
 <%= f.label :description %>
 <%= f.text_area :description, size: "60x12" %>
 
-<%= f.label :complete, "completed?" %>
+<%= f.label :complete, "completed?", class: "check" %>
 <%= f.check_box :complete %>
 
 <!-- <%= f.label :completion_date, "Date Complete:" %>
 <%= f.date_field :completion_date %> -->
 
-<%= f.submit "update task" %>
+<%= f.submit "Update task", class: "update-button" %>
 
 <% end %>

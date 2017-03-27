@@ -3,11 +3,11 @@
     <ul>
       <%= form_for @task do |f| %>
       <li>
-        <%= f.label :name, "naaaame" %>
+        <%= f.label :name, "Name: " %>
         <%= f.text_field :name %>
       </li>
       <li>
-        <%= f.label :description %>
+        <%= f.label :description, "Description: " %>
         <%= f.text_area :description, size: "60x12" %>
       </li>
       <!-- <li>
@@ -17,4 +17,4 @@
       <%= f.submit "Add task" %>
       <% end %>
     </ul>
-    <%= link_to 'Back to list', tasks_path %>
+    <%= link_to '<-- Back to list', tasks_path, class: "home-button" %>

@@ -17,8 +17,9 @@
         <%= form_for task, method: :put do |f| %>
 
         <!-- <%= f.label :complete, "" %> -->
-        <%= f.check_box :complete %>
-        <%= f.submit "Mark complete", data: { confirm: "Are you sure you want to mark this complete?" } %>
+        <%= f.check_box :complete, class: "index-checkbox"%>
+        <%= f.submit "Mark complete", data: { confirm: "Are you sure you want to mark this complete?", class: "complete-button" } %>
+
         <% end %>
 
     <% end %>

@@ -14,6 +14,14 @@ h1 {
   margin-top: 10px;
 }
 
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4vw;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
 main {
   padding: 40px;
 }
@@ -38,22 +46,29 @@ main {
 
 ol {
   margin-bottom: 50px;
+  padding-left: 5px;
 }
 
 ul  li {
-  vertical-align: top;
-  color: red;
+  vertical-align: text-top;
+  color: black;
   padding: 10px;
+  font-weight: bolder;
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 a.add-button {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  background-color: red;
+  background-color: orange;
   border: solid 3px black;
   padding: 10px;
-  margin: 40px;
+  // margin: 40px;
   margin-bottom: 50px;
 }
 
@@ -85,4 +100,91 @@ a.add-button:hover {
 
 .incomplete:visited {
   color: red;
+}
+
+h2.task-header {
+  border-bottom: dashed 2px;
+  width: 50%;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+p.description {
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-bottom: dashed 1px;
+}
+
+.edit-button {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-right: 5px;
+  border: solid 2px orange;
+  display: inline-block;
+}
+
+.edit-button:hover {
+  color: white;
+  background-color: orange;
+}
+
+.delete-button {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  border: solid 2px red;
+  margin: 5px;
+}
+
+.delete-button:hover {
+  color: white;
+  background-color: red;
+}
+
+// .home-button {
+//
+// }
+.home-button {
+  text-decoration: none;
+  color: black;
+  // border: dotted 2px black;
+  padding-top: 20px;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+textarea {
+  display: block;
+}
+
+// .home-button a:hover {
+//   color: white;
+//   background-color: black;
+//   border: solid 2px black;
+// }
+
+label.check {
+  display: inline-block;
+}
+
+check-box {
+  display: inline-block;
+}
+
+.index-description {
+  display: inline-block;
+}
+
+.update-button {
+  display: block;
 }
